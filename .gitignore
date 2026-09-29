@@ -1,0 +1,19 @@
+# Dependencies (anyone can recreate them with npm ci)
+node_modules/
+
+# Secrets and local settings
+.env
+.env.*
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test output
+coverage/
+
+# Editor and computer clutter
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
